@@ -1,11 +1,10 @@
 <?php
 
 use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Query\Expression;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProjectsTable extends Migration
+class CreateSkillsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,17 +13,13 @@ class CreateProjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('projects', function (Blueprint $table) {
+        Schema::create('skills', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name')->unique();
             $table->string('image');
             $table->longText('description');
-            $table->integer('relevance')->unsigned()->unique();
-            $table->string('started_at');
-            $table->string('finished_at')->nullable();
-            $table->json('skills');
-            $table->string('url')->nullable();
-            $table->json('resources')->default(new Expression('(JSON_ARRAY())'));
+            $table->integer('level_of_knowledge')->unsigned();
+            $table->boolean('currently')->default(0);
             $table->timestamps();
         });
     }
@@ -36,6 +31,6 @@ class CreateProjectsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('projects');
+        Schema::dropIfExists('skills');
     }
 }

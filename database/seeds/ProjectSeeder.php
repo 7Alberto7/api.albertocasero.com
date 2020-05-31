@@ -190,7 +190,7 @@ class ProjectSeeder extends Seeder
                 ->updateOrInsert(
                     ['name' => $project['name']],
                     [
-                        'image' => $project['name'],
+                        'image' => $project['image'],
                         'description' => $project['description'],
                         'relevance' => $project['relevance'],
                         'started_at' => $project['started_at'],
