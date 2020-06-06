@@ -167,7 +167,7 @@ class ProjectSeeder extends Seeder
                 "relevance" => 13,
                 "started_at" => "2020",
                 "finished_at" => null,
-                "skills" => ["Kanban", "Git", "Linux", "HTML 5", "SASS", "Bootstrap", "Nuxtjs"],
+                "skills" => ["Kanban", "Git", "MongoDB", "PHP", "Laravel", "Linux", "HTML 5", "SASS", "Bootstrap", "Nuxtjs", "SEO", "Analytics"],
                 "url" => "https =>//www.albertocasero.com",
                 "resources" => [
                     ["url" => "https =>//github.com/7Alberto7/albertocasero.com", "type" => "github"]
