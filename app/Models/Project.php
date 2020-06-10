@@ -1,13 +1,10 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 class Project extends Model
 {
-    protected $casts = [
-        'skills' => 'array',
-        'resources' => 'json'
-    ];
+    protected $dates = ['created_at', 'updated_at'];
 }
