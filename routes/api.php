@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->group(function () {
     Route::get('/projects', 'ProjectController@index');
     Route::get('/skills', 'SkillController@index');
+    Route::get('/jobs', 'JobController@index');
 });
