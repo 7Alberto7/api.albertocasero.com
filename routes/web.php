@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('projects/{project}/image', 'ProjectController@image');
+Route::get('skills/{skill}/image', 'SkillController@image');
+Route::get('skills/{name}/image-by-name', 'SkillController@imageByName');

@@ -12,8 +12,6 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::middleware('auth:api')->group(function () {
-    Route::get('/projects', 'ProjectController@index');
-    Route::get('/skills', 'SkillController@index');
-    Route::get('/jobs', 'JobController@index');
-});
+Route::get('/projects', 'ProjectController@index');
+Route::get('/skills', 'SkillController@index');
+Route::get('/jobs', 'JobController@index');
