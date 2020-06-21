@@ -21,7 +21,7 @@ return [
 
     'allowed_origins' => [
         'http://localhost:3000',
-        'https://albertocasero.com/',
+        'https://albertocasero.com',
     ],
 
     'allowed_origins_patterns' => [],
