@@ -17,14 +17,14 @@ class ProjectSeeder extends Seeder
             [
                 "name" => "Entrenos Desabi",
                 "image" => "entrenos-desabi.png",
-                "description" => "Entrenos Desabi fue mi primer proyecto web profesional. Este proyecto consistía en que nuestro cliente, como administrador, pudiera de alta entrenadores y deportistas. Los entrenadores se autenticaban y creaban entrenamientos para sus deportistas y los deportistas podían ver las rutinas de entrenamiento creadas por su entrenador. Desabi fue realizado junto con mis compañeros de https =>//jarroba.com/.",
+                "description" => "Entrenos Desabi fue mi primer proyecto web profesional. Este proyecto consistía en que nuestro cliente, como administrador, pudiera de alta entrenadores y deportistas. Los entrenadores se autenticaban y creaban entrenamientos para sus deportistas y los deportistas podían ver las rutinas de entrenamiento creadas por su entrenador. Desabi fue realizado junto con mis compañeros de https://jarroba.com/.",
                 "relevance" => 1,
                 "started_at" => "2013",
                 "finished_at" => "2013",
                 "skills" => ["Kanban", "MySQL", "PHP", "HTML 5", "CSS 3", "Bootstrap", "Javascript", "jQuery"],
                 "url" => "http =>//entrenos.desabi.es",
                 "resources" => [
-                    ["url" => "https =>//www.youtube.com/watch?v=YZ5fpJZsjHk", "type" => "youtube"]
+                    ["url" => "https://www.youtube.com/watch?v=YZ5fpJZsjHk", "type" => "youtube"]
                 ]
             ],
             [
@@ -35,9 +35,9 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2013",
                 "finished_at" => "2013",
                 "skills" => ["Android"],
-                "url" => "https =>//play.google.com/store/apps/details?id=com.inactec.score",
+                "url" => "https://play.google.com/store/apps/details?id=com.inactec.score",
                 "resources" => [
-                    ["url" => "https =>//github.com/7Alberto7/Score", "type" => "github"]
+                    ["url" => "https://github.com/7Alberto7/Score", "type" => "github"]
                 ]
             ],
             [
@@ -48,9 +48,9 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2013",
                 "finished_at" => "2013",
                 "skills" => ["Android"],
-                "url" => "https =>//play.google.com/store/apps/details?id=com.inactec.score",
+                "url" => "https://play.google.com/store/apps/details?id=com.inactec.score",
                 "resources" => [
-                    ["url" => "https =>//github.com/7Alberto7/Score", "type" => "github"]
+                    ["url" => "https://github.com/7Alberto7/Score", "type" => "github"]
                 ]
             ],
             [
@@ -74,8 +74,8 @@ class ProjectSeeder extends Seeder
                 "skills" => ["Scrum", "Git", "MongoDB", "PHP", "Symfony", "HTML 5", "CSS 3", "Bootstrap", "Javascript", "jQuery"],
                 "url" => null,
                 "resources" => [
-                    ["url" => "https =>//github.com/7Alberto7/pfmweb", "type" => "github"],
-                    ["url" => "https =>//www.youtube.com/watch?v=IAdDdWE1VVA", "type" => "youtube"]
+                    ["url" => "https://github.com/7Alberto7/pfmweb", "type" => "github"],
+                    ["url" => "https://www.youtube.com/watch?v=IAdDdWE1VVA", "type" => "youtube"]
                 ]
             ],
             [
@@ -88,8 +88,8 @@ class ProjectSeeder extends Seeder
                 "skills" => ["Scrum", "Android"],
                 "url" => null,
                 "resources" => [
-                    ["url" => "https =>//github.com/7Alberto7/pfmandroid", "type" => "github"],
-                    ["url" => "https =>//www.youtube.com/watch?v=Knv3nlJvhcY", "type" => "youtube"]
+                    ["url" => "https://github.com/7Alberto7/pfmandroid", "type" => "github"],
+                    ["url" => "https://www.youtube.com/watch?v=Knv3nlJvhcY", "type" => "youtube"]
                 ]
             ],
             [
@@ -111,7 +111,7 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2014",
                 "finished_at" => "2020",
                 "skills" => ["Kanban", "Git", "MySQL", "Redis", "PHP", "Symfony", "Linux", "HTML 5", "CSS 3", "Bootstrap", "Javascript", "jQuery", "SEO", "Analytics"],
-                "url" => "https =>//www.mcr.com.es",
+                "url" => "https://www.mcr.com.es",
                 "resources" => []
             ],
             [
@@ -122,7 +122,7 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2015",
                 "finished_at" => "2020",
                 "skills" => ["Kanban", "Git", "MySQL", "PHP", "Linux", "HTML 5", "CSS 3"],
-                "url" => "https =>//www.openmcr.com.es",
+                "url" => "https://www.openmcr.com.es",
                 "resources" => []
             ],
             [
@@ -135,7 +135,7 @@ class ProjectSeeder extends Seeder
                 "skills" => ["Git", "HTML 5", "CSS 3", "Angular"],
                 "url" => "http://old.albertocasero.com",
                 "resources" => [
-                    ["url" => "https =>//github.com/7Alberto7/PersonalPortfolio", "type" => "github"]
+                    ["url" => "https://github.com/7Alberto7/PersonalPortfolio", "type" => "github"]
                 ]
             ],
             [
@@ -146,7 +146,7 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2019",
                 "finished_at" => "2020",
                 "skills" => ["Kanban", "Git", "MySQL", "Redis", "PHP", "Symfony", "Linux", "HTML 5", "CSS 3", "Bootstrap", "Javascript", "jQuery", "SEO", "Analytics"],
-                "url" => "https =>//www.mcr.com.es",
+                "url" => "https://www.mcr.com.es",
                 "resources" => []
             ],
             [
@@ -157,7 +157,7 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2019",
                 "finished_at" => "2020",
                 "skills" => ["Kanban", "Git", "MySQL", "Redis", "PHP", "Symfony", "Linux", "HTML 5", "CSS 3", "Bootstrap", "Javascript", "jQuery", "SEO", "Analytics"],
-                "url" => "https =>//www.abmaterials.es",
+                "url" => "https://www.abmaterials.es",
                 "resources" => []
             ],
             [
@@ -168,9 +168,9 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2020",
                 "finished_at" => null,
                 "skills" => ["Kanban", "Git", "MongoDB", "PHP", "Laravel", "Linux", "HTML 5", "SASS", "Bootstrap", "Nuxtjs", "SEO", "Analytics"],
-                "url" => "https =>//www.albertocasero.com",
+                "url" => "https://www.albertocasero.com",
                 "resources" => [
-                    ["url" => "https =>//github.com/7Alberto7/albertocasero.com", "type" => "github"]
+                    ["url" => "https://github.com/7Alberto7/albertocasero.com", "type" => "github"]
                 ]
             ],
             [
