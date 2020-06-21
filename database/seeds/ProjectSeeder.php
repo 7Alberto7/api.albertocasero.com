@@ -22,7 +22,7 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2013",
                 "finished_at" => "2013",
                 "skills" => ["Kanban", "MySQL", "PHP", "HTML 5", "CSS 3", "Bootstrap", "Javascript", "jQuery"],
-                "url" => "http =>//entrenos.desabi.es",
+                "url" => "http://entrenos.desabi.es",
                 "resources" => [
                     ["url" => "https://www.youtube.com/watch?v=YZ5fpJZsjHk", "type" => "youtube"]
                 ]
@@ -61,7 +61,7 @@ class ProjectSeeder extends Seeder
                 "started_at" => "2014",
                 "finished_at" => "2014",
                 "skills" => ["PHP", "HTML 5", "CSS 3", "Bootstrap", "Javascript", "jQuery", "SEO"],
-                "url" => "http =>//electronicalosdel.com",
+                "url" => "http://electronicalosdel.com",
                 "resources" => []
             ],
             [
